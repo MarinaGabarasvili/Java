@@ -21,8 +21,15 @@ public class Day3 {
 //        example.sample1();//piekluve caur objektu
 //        NewClassExample.sample2();//piekluve caur klasi
         
-        Tasks day = new Tasks();
-        Tasks.DayNumber();
+//        Tasks day = new Tasks();
+//        Tasks.DayNumber();
+        
+        Tasks count = new Tasks();
+//        count.FactCount();
+        
+        count.MatchNumber();
+
+        
         
     }
     
