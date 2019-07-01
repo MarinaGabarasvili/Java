@@ -46,25 +46,7 @@ public class Tasks {
             System.out.println("Zeros: " + countZ);
             
         }
-       
         
-        
-//        Scanner sc = new Scanner(System.in);
-//     
-//        char [] a;//kka partaisit par listu
-//        String answer;
-//        do{
-//            System.out.print("Please enter number:");
-//            a = sc.next().toCharArray();// uztaisit add.list
-//            System.out.print("Gribat turpinat ievadi? ");
-//            answer = sc.next();
-//            
-//            if("no".equals(answer));
-//        } while("yes".equals(answer));
-//        
-//        System.out.println("Your numbers are: " + Arrays.toString(a) );//+list
-//        
-//       
         }
         
 
