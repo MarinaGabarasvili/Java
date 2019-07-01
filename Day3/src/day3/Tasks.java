@@ -68,14 +68,15 @@ public class Tasks {
         Scanner sc = new Scanner (System.in);
         System.out.print("Ludzu ievadiet veselu skaitli: ");
         int number = sc.nextInt();
-        int number2 = 0;
-        while(number != number2){
+        int number2;
+        do{
             System.out.println("Ludzu uzminiet skaitli: ");
             number2 = sc.nextInt();
             if(number != number2){
             System.out.println("Meginiet velreiz");}
             
-        } System.out.println("Jus uzminejat!");
+        }while(number != number2);
+        System.out.println("Jus uzminejat!");
     }}
     
 
