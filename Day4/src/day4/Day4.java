@@ -19,7 +19,12 @@ public class Day4 {
 //        ex.sample1();
         
        ArrayTasks avr = new ArrayTasks();
-       avr.arrayFromUserInput();
+//       avr.arrayFromUserInput();
+       
+//       avr.task2();
+            avr.task4();
     }
+    
+    
     
 }
