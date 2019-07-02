@@ -16,11 +16,17 @@ public class Day5 {
      */
     public static void main(String[] args) {
         
-       Human janis = new Human();
-       janis.setName("");
-       janis.setSurname("");
-       janis.setAge(38);
-       janis.yearOfBirth();
+        Triangle trgl = new Triangle();
+        trgl.setEdgeA(0);
+        trgl.setEdgeB(7);
+        trgl.setEdgeC(3);
+        trgl.GetPerimeter();
+        
+//       Human janis = new Human();
+//       janis.setName("");
+//       janis.setSurname("");
+//       janis.setAge(38);
+//       janis.yearOfBirth();
        
        
 //        exampleHumans();}
