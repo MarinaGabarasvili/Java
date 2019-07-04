@@ -53,11 +53,11 @@ public class Triangle {
     }
     
     public int getEdgeB() {
-        return edgeA;
+        return edgeB;
     }
     
     public int getEdgeC() {
-        return edgeA;
+        return edgeC;
     }
     
     public void GetPerimeter(){
