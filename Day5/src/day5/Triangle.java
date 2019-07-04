@@ -64,7 +64,7 @@ public class Triangle {
         
         int perimeter = this.edgeA + this.edgeB + this.edgeC;
         
-        if( this.edgeA==0 || this.edgeB==0 || this.edgeC==0 ){
+        if( this.edgeA==0 && this.edgeB==0 && this.edgeC==0 ){
             System.out.println ("Ievades kluda!");
         } else {
         System.out.println ("Triangle perimeter is " + perimeter);
