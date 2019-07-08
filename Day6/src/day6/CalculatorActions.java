@@ -10,19 +10,19 @@ package day6;
  * @author jlapi
  */
 public class CalculatorActions {
-    public static int Add(int number1, int number2){
+    public double Add(int number1, int number2){
         return number1 + number2;
     }
     
-    public static int Substract(int number1, int number2){
+    public double Substract(int number1, int number2){
         return number1 - number2;
     }
     
-    public static int Multiply (int number1, int number2){
+    public double Multiply (int number1, int number2){
         return number1 * number2;
     }
     
-    public static double Devide(int number1, int number2){
+    public double Devide(int number1, int number2){
         return number1 / number2;
     }
 }

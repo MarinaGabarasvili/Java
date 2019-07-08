@@ -24,8 +24,8 @@ public class Day6 {
         Calculator cr = new Calculator();
         cr.setVisible(true);
         
-//        SimpleCalculator sc = new SimpleCalculator();
-//        sc.setVisible(true);
+        SimpleCalculator sc = new SimpleCalculator();
+        sc.setVisible(true);
         
     }
 
