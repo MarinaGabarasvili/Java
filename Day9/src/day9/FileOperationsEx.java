@@ -7,6 +7,10 @@ package day9;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.lang.System.Logger;
+import java.lang.System.Logger.Level;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -15,7 +19,7 @@ import java.util.Scanner;
  * @author jlapi
  */
 public class FileOperationsEx {
-    
+
     public void readSampleFile() {
         try {//ielasam failu
             Scanner scanner = new Scanner(new File("C:\\Users\\jlapi\\Desktop\\sample.txt"));
@@ -31,19 +35,35 @@ public class FileOperationsEx {
         }
 
     }
-    
+
     private ArrayList inputList;
 
     public FileOperationsEx() {
-        
+
         inputList = new ArrayList<Integer>();
-        
+
     }
-    
+
     public ArrayList<Integer> getFileContent() {
 
         return inputList;
 
     }
-    
+
+    public void writeFile() {
+
+        File file = new File("C:\\Users\\jlapi\\Desktop\\sample2.txt");
+
+        FileWriter writer;
+        try {
+            writer = new FileWriter(file); //parraksta no jauna esoso failu
+            writer = new FileWriter(file,true);//liek klat teksu esosam failam
+            writer.write("This\n is\n an\n example2\n");
+            writer.flush();
+            writer.close();
+        } catch (IOException ex) {
+            System.out.println("Rakstit neizdevas!");
+        }
+    }
+
 }
